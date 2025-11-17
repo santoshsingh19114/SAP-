@@ -7,7 +7,7 @@ Below is the complete explanation of the HTTP-based Customer Data fetching iFlow
 ## 📌 **Integration Flow Screenshot**
 
 \
-**![Integration Flow]\(get_customer_data.png)**
+![iFlow Screenshot](get_customer_data.png)
 
 
 

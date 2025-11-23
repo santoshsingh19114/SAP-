@@ -90,3 +90,17 @@ This means all incoming headers are forwarded.
 
 The deployed iFlow will return filtered JSON customer data from the Northwind OData service.
 
+## **NOTES**
+
+1. In SAP CI, the OData (Open Data Protocol) adapter returns data in XML format by default. However,
+when using the HTTP adapter, the response can be returned in JSON format if the
+'Content-Type' header is explicitly set to 'application/json'.
+
+2. In SAP CI, one of the advantages of using the HTTP adapter is that it simplifies
+troubleshooting. Since the HTTP requests and responses handled by the adapter
+can be easily simulated in tools like Postman, you can quickly test and debug
+issues locally. If you encounter a problem with a request or payload in your
+integration flow, you can replicate the scenario in Postman using the same request
+URL and payload. This makes it easier to identify and resolve issues efficiently
+within the SAP CL
+
